@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.gusri.yongdolah.RegisterActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_Reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/Bar">
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:id="@+id/vw_atas"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/toolbar_Reg"
+        android:alpha=".5"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_centerVertical="true">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CREATED ACCOUNT"
+            android:textSize="25dp"
+            android:textColor="@color/intext1"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/des_daftar"
+            android:textAlignment="center"
+            android:textColor="@color/intext2" />
+
+        <EditText
+            android:id="@+id/et_EmailReg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/transparan_mode"
+            android:drawableLeft="@drawable/ic_mail_outline"
+            android:drawablePadding="10dp"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/light_blue" />
+
+        <EditText
+            android:id="@+id/et_PassReg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/transparan_mode"
+            android:drawableLeft="@drawable/ic_lock_outline"
+            android:drawablePadding="10dp"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/light_blue" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"
+        android:text="@string/signup"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4e94d7</color>
+    <color name="colorPrimaryDark">#2966a1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="graycolor">#c2c2c2</color>
+    <color name="light_blue">#89c3fc</color>
+    <color name="fb_dark">#3b5998</color>
+    <color name="fb_light">#8b9dc3</color>
+    <color name="google_light">#db3236</color>
+    <color name="google_dark">#b72528</color>
+    <color name="red_flat">#f68686</color>
+    <color name="trans_frame">#80000000</color>
+    <color name="Alpha">#82feffff</color>
+    <color name="like">#FBA026</color>
+
+    <!-- Color Form -->
+
+    <color name="colorForm">#3d3d3d</color>
+
+    <color name="intext1">#313337</color>
+    <color name="intext2">#51565d</color>
+    <color name="textcolor">#afaeae</color>
+
+    <!-- Color Button -->
+    <color name="button_pressed">#4e94d7</color>
+    <color name="button_focused">#2966a1</color>
+    <color name="button_default">#89c3fc</color>
+
+    <!-- Color Page2 -->
+   <color name="lightpage2">#a3dbee</color>
+    <color name="darkpage2">#366ea4</color>
+
+    <!-- Color Page3 -->
+    <color name="lightpage3">#a3dbee</color>
+    <color name="darkpage3">#366ea4</color>
+
+    <!-- Color Bait4 -->
+    <color name="lightpage4">#a3dbee</color>
+    <color name="darkpage4">#366ea4</color>
+
+    <!-- Dot Active -->
+    <array name="dot_active">
+        <item>@color/lightpage2</item>
+        <item>@color/lightpage3</item>
+        <item>@color/lightpage4</item>
+    </array>
+
+    <!-- Dot InActive -->
+    <array name="dot_inactive">
+        <item>@color/darkpage2</item>
+        <item>@color/darkpage3</item>
+        <item>@color/darkpage4</item>
+    </array>
+</resources>

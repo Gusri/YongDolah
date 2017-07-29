@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+    <TextView
+        android:id="@+id/tv_TitSplash4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titsplash4"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="70sp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_Splash4"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:src="@drawable/ic_airplanemode_inactive_black_24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="80dp"
+        app:civ_border_width="8dp"
+        app:civ_border_color="@color/colorPrimaryDark"
+        android:layout_below="@+id/tv_TitSplash4"/>
+
+    <TextView
+        android:id="@+id/tv_DescSplash4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descsplash4"
+        android:textAlignment="center"
+        android:textColor="@color/intext2"
+        android:textSize="35sp"
+        android:layout_below="@+id/img_Splash4"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+</RelativeLayout>

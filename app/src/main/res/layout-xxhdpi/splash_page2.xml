@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+    <TextView
+        android:id="@+id/tv_TitSplash2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/titsplash1"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descsplash1"
+        android:textAlignment="center"
+        android:textColor="@color/intext2"
+        android:textSize="17sp"
+        android:layout_below="@+id/tv_TitSplash2"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_Splash2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/tv_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/yul"
+        app:civ_border_color="@color/colorPrimaryDark"
+        app:civ_border_width="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_DescSplash2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_Splash2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/descplash2"
+        android:textAlignment="center"
+        android:textColor="@color/intext2"
+        android:textSize="20sp"/>
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/img_profile"
+        app:layout_widthPercent="100%"
+        app:layout_aspectRatio="178%"
+        android:scaleType="fitXY"
+        android:alpha="0.7"
+        android:adjustViewBounds="true"/>
+    <!-- The rest of your layout -->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_HeadUser"
+        app:civ_border_color="@android:color/white"
+        app:civ_border_width="2dp"
+        app:layout_widthPercent="25%"
+        app:layout_aspectRatio="100%"
+        app:layout_marginLeftPercent="5%"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="top|left"
+        android:src="@drawable/yul"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginRightPercent="5%"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:id="@+id/tv_Profile2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:id="@+id/tv_Profile1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</android.support.percent.PercentFrameLayout>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Yong Dolah</string>
+    <string name="home">Home</string>
+    <string name="cerpen">Cerita Pendek</string>
+    <string name="cerbung">cerita Bersambung</string>
+    <string name="event">Event</string>
+    <string name="dongeng">Dongeng</string>
+    <string name="posted">Posted</string>
+    <string name="register">Register</string>
+    <string name="start">Get Started</string>
+    <string name="logout">Log Out</string>
+    <string name="login">Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="setting">Setting</string>
+    <string name="kirim">Upload Cerita</string>
+    <string name="category">Select Category</string>
+    <string name="email">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="name">Masukkan Nama ...</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="daftar">Daftar</string>
+    <string name="account">Buat Account Baru</string>
+    <string name="erroLog">Email/Password Anda Salah Atau belum Terdaftar</string>
+    <string name="desclogin">Email/Account Belum Terdaftar</string>\
+    <string name="setup">finish</string>
+    <string name="descsplash1">Cerita, Celoteh dan Humor Melayu</string>
+    <string name="descplash2">Tokoh dipopulerkan kembali oleh Yong Yulipandi</string>
+    <string name="titsplash1">Yong Dolah</string>
+    <string name="titsplash2">Yong Yulipandi</string>
+    <string name="titsplash3">Up To Date</string>
+    <string name="descsplash3">Selalu mempunyai cerita terbaru setiap harinya</string>
+    <string name="titsplash4">Offline Mode</string>
+    <string name="descsplash4">Kontent cerita dapat dinikmati di saat Offline</string>
+    <string name="reg">Belum punya Account? Click</string>
+    <string name="des_daftar">Silahkan Registrasi Account dengan Email yang valid</string>
+    <string name="emailreg">E-mail</string>
+    <string name="passreg">Password</string>
+    <string name="facebook_app_id">1730787540566543</string>
+    <string name="post">Posted By</string>
+    <string name="registrasi">"Registrasi Account"</string>
+    <string name="congrat1">Email </string>
+    <string name="congrat2">terdaftar sebagai pengguna App. Silahkan lengkapi data dibawah :</string>
+    <string name="admin">"Menu ini hanya bisa di akses oleh Admin, dan Anda terdaftar sebgai user. Silahkan mendaftar sebagai admin ke"</string>
+    <string name="mail">"ghostonk82@gmail.com</string>
+    <string name="member">Member Group</string>
+    <string name="Tab1">Member</string>
+    <string name="Tab2">Chat</string>
+
+    <!-- AdMob ad unit IDs , Kode ADMOB-->
+    <string name="banner_home_footer">ca-app-pub-9483653834645976/3794365240</string>
+</resources>

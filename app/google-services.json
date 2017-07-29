@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "333431797735",
+    "firebase_url": "https://yongdolah-da973.firebaseio.com",
+    "project_id": "yongdolah-da973",
+    "storage_bucket": "yongdolah-da973.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333431797735:android:583d9ac357465431",
+        "android_client_info": {
+          "package_name": "net.gusri.yongdolah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333431797735-99i9mm1n6etj7tp2ephc4r5tscfr99nr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.gusri.yongdolah",
+            "certificate_hash": "ebbfc1538ba9e38929f6e77ac1845d37fad97cba"
+          }
+        },
+        {
+          "client_id": "333431797735-aumt344u57fffd5eddkbu4vnnfth96lj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE7zMg-md2LAqYvbBhFwGKi4yEkqZXsLw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333431797735-aumt344u57fffd5eddkbu4vnnfth96lj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

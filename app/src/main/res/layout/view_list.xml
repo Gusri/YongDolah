@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="1dp"
+    app:cardElevation="3dp">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_PostUser"
+
+            app:layout_aspectRatio="100%"
+            app:civ_border_color="@android:color/white"
+            app:civ_border_width="2dp"
+            app:layout_widthPercent="10%"/>
+
+        <TextView
+            android:id="@+id/tv_posted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@+id/img_PostUser"
+            android:text="@string/post"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/tv_PostFirstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/tv_posted"
+            android:text="1"
+            android:textSize="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_PostLastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="1dp"
+            android:layout_toRightOf="@+id/tv_PostFirstname"
+            android:text="2"
+            android:textSize="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_PostDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:textSize="10dp"/>
+
+
+    </android.support.percent.PercentRelativeLayout>
+
+
+    <android.support.percent.PercentFrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp">
+
+        <ImageView
+            android:id="@+id/img_PostImage"
+            android:scaleType="centerCrop"
+            app:layout_aspectRatio="178%"
+            app:layout_widthPercent="100%"/>
+
+        <View
+            android:background="@color/trans_frame"
+            app:layout_aspectRatio="178%"
+            app:layout_widthPercent="100%"/>
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:layout_marginRightPercent="3%"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/circ_Like"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="top"
+                android:src="@drawable/ic_like_hand"
+                app:layout_aspectRatio="100%"
+                app:layout_widthPercent="10%"/>
+
+            <ImageView
+                android:id="@+id/circ_smile"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/circ_Like"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_smile"
+                app:layout_aspectRatio="100%"
+                app:layout_widthPercent="10%"/>
+
+            <TextView
+                android:id="@+id/tv_countLikes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_toLeftOf="@+id/circ_Like"
+                android:gravity="right"
+                android:text="30"
+                android:textColor="@android:color/white"
+                app:layout_marginRightPercent="2%"/>
+
+            <TextView
+                android:id="@+id/tv_countSmile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/circ_Like"
+                android:layout_marginTop="13dp"
+                android:layout_toLeftOf="@+id/circ_smile"
+                android:gravity="right"
+                android:text="30"
+                android:textColor="@android:color/white"
+                app:layout_marginRightPercent="2%"
+                />
+        </android.support.percent.PercentRelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_PostTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/frame_img"
+                android:paddingTop="2dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_PostDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginTop="5dp"
+                android:lines="3"
+                android:maxLength="50"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+    </android.support.percent.PercentFrameLayout>
+</android.support.v7.widget.CardView>

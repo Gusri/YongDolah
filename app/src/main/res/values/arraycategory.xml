@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Spinner -->
+    <string-array name="category">
+        <item>Cerbung</item>
+        <item>Cerpen</item>
+        <item>Event</item>
+        <item>Dongeng</item>
+    </string-array>
+</resources>
